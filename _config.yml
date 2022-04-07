@@ -3,6 +3,9 @@
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
+# Theme
+theme: next
+
 # Site
 title: EtHereAlPlusor
 subtitle:
