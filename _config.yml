@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Theme
-theme: next
+theme: jekyll-theme-cayman
 
 # Site
 title: EtHereAlPlusor
