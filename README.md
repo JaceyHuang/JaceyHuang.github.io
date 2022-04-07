@@ -1,2 +1,2 @@
 # EtHereAlPlusor.github.io
-A personal website. Powered By Theme-NexT.
+My personal website. Powered by Theme-NexT.
