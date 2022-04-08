@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
@@ -15,5 +18,11 @@
     <url>
       <loc>https://jasonansel.com/hobbies/</loc>
     </url>
-    
+    {% comment %}
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+    </url>
+    {% endfor %}
+    {% endcomment %}
 </urlset>
