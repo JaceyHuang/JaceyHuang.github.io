@@ -7,7 +7,7 @@ layout: page
 <img src="/images/avatar.png" class="floatpic" width="200" height="300">
 My name is Jacey Huang. I am now a third-year student studying in the College of Information Science and Electronic Engineering ([ISEE]), [Zhejiang University].
 
-In 2019, I was admitted to the Engineering Experimental Class of Energy, Chemical and Polymer of Zhejiang University, and in the same year, I transferred to the major of Information Engineering and entered the Shannon Class of ISEE through selection. Under the tutelage of [Prof. Zhiguo Shi], I finished the Student Research Training Program (SRTP) using ORB_SLAM3 to achieve visual positioning and navigation with my teammates. After that, I complemented an [embedded face recognition system] for masked and unmasked faces using ZYNQ.
+In 2019, I was admitted to the Engineering Experimental Class of Energy, Chemical and Polymer of Zhejiang University, and in the same year, I transferred to the major of Information Engineering and entered the Shannon Class of ISEE through selection. Under the tutelage of [Prof. Zhiguo Shi], I finished the Student Research Training Program (SRTP) using ORB_SLAM3 to achieve visual positioning and navigation with my teammates. After that, I accomplished an [embedded face recognition system] for masked and unmasked faces using ZYNQ.
 
 Through these three years of hard work, I will now be eligible for postgraduate exemption from ISEE and I am planning to pursue a Ph.D. directly, working with [Prof. Yiyi Liao]. My research interest lies in computer vision and its application.
 
