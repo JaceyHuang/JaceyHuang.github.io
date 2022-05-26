@@ -2,21 +2,20 @@ title: EtHereAlPlusor
 #tagline:          A short tagline
 #description:      Describe your website.
 #Comment out url when working locally to resolve base urls correctly
-# url: https://jasonansel.com
 
 # Owner/author information
 owner:
   name:           Jacey Huang
   avatar:         home.png
 #  bio:
-  email:          3190102060@zju.edu.cn
+  email:          jacey.huang@zju.edu.cn
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:
   facebook:
   github: EtHereAlPlusor
   # linkedin: jansel
   # scholar: https://scholar.google.com/citations?user=jDNYtP0AAAAJ
-  instagram:
+  instagram: https://www.instagram.com/jaceyh19/
   lastfm:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
