@@ -1,382 +1,483 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Jacey Huang</title>
-
-    <meta name="author" content="Jacey Huang">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
-  </head>
-
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:65%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Jiaxin Huang
-                </p>
-                <p>I am currently pursuing a Ph.D. at <a href="https://yiyiliao.github.io/xdlab//">X-D Lab</a>, Zhejiang University, under the guidance of <a href="https://yiyiliao.github.io/">Prof.Yiyi Liao</a>. 
-                  Prior to this, I completed my Bachelor's degree in Zhejiang University, graduating in June 2023.
-                </p>
-                <p>
-                  During my time at X-D Lab, I have focused on projects involving 3D scene reconstruction and controllable generation of 3D scenes.
-                </p>
-                <p>
-                  My Chinese name is 黄嘉欣.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:jacey.huang@zju.edu.cn">Email</a> &nbsp;/&nbsp;
-                  <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp; -->
-                  <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="https://scholar.google.com/citations?hl=en&user=BPZQBTgAAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://twitter.com/jiaxinhuang2001">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/JaceyHuang/">Github</a>
-                </p>
-              </td>
-              <td style="padding:4.0%;width:50%;max-width:50%">
-                <a href="images/avatar.jpg"><img style="width:80%;max-width:150%;object-fit: cover; border-radius: 5%;" alt="profile photo" src="images/avatar.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="text-indent:20px;width:100%;vertical-align:middle">
-                <h2>News</h2>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <!-- <div style="height:80px;overflow-y:scroll;"> -->
-          <div style="height:80px;overflow-y:scroll;">
-            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <ul>
-                <li>Feb 21, 2026: One paper is accepted to <b>CVPR 2026</b>.</li>
-                <li>Jun 26, 2025: One paper is accepted to <b>ICCV 2025</b>.</li>
-                <li>Feb 27, 2025: One paper is accepted to <b>CVPR 2025</b>.</li>
-                <li>Jul 1, 2024: One paper is accepted to <b>ECCV 2024</b>.</li>
-                <li>Jul 15, 2023: One paper is accepted to <b>ICCV 2023</b>.</li>
-              </ul>
-              </td>
-            </tr>
-            </tbody></table>
-          </div>
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  My research interests primarily revolve around 3D computer vision, encompassing areas such as 3D reconstruction and controllable generation of 3D scenes. 
-                  <!-- Representative papers are <span class="highlight">highlighted</span>. -->
-                  * means equal contribution.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody></tbody>
-
-	
-    <!-- <tr onmouseout="recon_stop()" onmouseover="recon_start()" bgcolor="#ffffd0">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='recon_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/recon.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/recon.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function recon_start() {
-            document.getElementById('recon_image').style.opacity = "1";
-          }
-
-          function recon_stop() {
-            document.getElementById('recon_image').style.opacity = "0";
-          }
-          recon_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://reconfusion.github.io/">
-			<span class="papertitle">ReconFusion: 3D Reconstruction with Diffusion Priors</span>
-        </a>
-        <br>
-        <a href="https://www.cs.columbia.edu/~rundi/">Rundi Wu*</a>,
-		<a href="https://bmild.github.io/">Ben Mildenhall*</a>,
-        <a href="https://henzler.github.io/">Philipp Henzler</a>,
-        <a href="https://keunhong.com/">Keunhong Park</a>,
-        <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>,
-        <a href="https://scholar.google.com/citations?user=_pKKv2QAAAAJ&hl=en/">Daniel Watson</a>,
-        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://poolio.github.io/">Ben Poole</a>,
-        <a href="https://holynski.org/">Aleksander Holynski*</a>
-        <br>
-        <em>arXiv</em>, 2023
-        <br>
-        <a href="https://reconfusion.github.io/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/">arXiv</a>
-        <p></p>
-        <p>
-        Using a multi-image diffusion model as a regularizer lets you recover high-quality radiance fields from just a handful of images.
-        </p>
-      </td>
-    </tr> -->
-
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-        <div class="two" id='gen3r_image'><video width=100% height=100% muted autoplay loop>
-        <source src="images/gen3r_video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
-        <!-- </div>
-          <img src='images/evolsplat_gif.gif' width="160">
-        </div> -->
-        <script type="text/javascript">
-          function gen3r_start() {
-            document.getElementById('gen3r_image').style.opacity = "1";
-          }
-
-          function gen3r_stop() {
-            document.getElementById('gen3r_image').style.opacity = "0";
-          }
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://xdimlab.github.io/Gen3R/">
-          <span class="papertitle">Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction
-    </span>
-        </a>
-        <br>
-      <strong>Jiaxin Huang</strong>,
-      Yuanbo Yang,
-      <a href="https://ybbbbt.com/">Bangbang Yang</a>,
-      Lin Ma,
-      Yuewen Ma,
-      <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
-        <br>
-      <em>CVPR<em>, 2026
-        <br>
-        <a href="https://xdimlab.github.io/Gen3R/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2601.04090">arXiv</a>
-        <p></p>
-        <p>
-          A generative model that creates multi-quantity 3D scenes from images via a unified latent space of geometry and appearance.
-        </p>
-      </td>
-    </tr>          
-
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-        <div class="two" id='vivid4d_image'><video width=100% height=76% muted autoplay loop>
-        <source src="images/vivid4d_video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
-        <!-- </div>
-          <img src='images/evolsplat_gif.gif' width="160">
-        </div> -->
-        <script type="text/javascript">
-          function vivid4d_start() {
-            document.getElementById('vivid4d_image').style.opacity = "1";
-          }
-
-          function vivid4d_stop() {
-            document.getElementById('vivid4d_image').style.opacity = "0";
-          }
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://xdimlab.github.io/Vivid4D/">
-          <span class="papertitle">Vivid4D: Improving 4D Reconstruction from Monocular Video by Video Inpainting
-    </span>
-        </a>
-        <br>
-      <strong>Jiaxin Huang</strong>,
-      Sheng Miao,
-      <a href="https://ybbbbt.com/">Bangbang Yang</a>,
-      Yuewen Ma,
-      <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
-        <br>
-      <em>ICCV<em>, 2025
-        <br>
-        <a href="https://xdimlab.github.io/Vivid4D/">project page</a>
-        /
-        <a href="http://arxiv.org/abs/2504.11092">arXiv</a>
-        <p></p>
-        <p>
-          A generative framework that addresses the challenge of reconstructing dynamic scenes from casual monocular videos with video diffusion model.
-        </p>
-      </td>
-    </tr>          
-
-    <tr onmouseout="evolsplat_stop()" onmouseover="evolsplat_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-        <div class="two" id='evolsplat_image'><video width=100% height=76% muted autoplay loop>
-        <source src="images/evolsplat_video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
-        </div>
-          <img src='images/evolsplat_gif.gif' width="160">
-        </div>
-        <script type="text/javascript">
-          function evolsplat_start() {
-            document.getElementById('evolsplat_image').style.opacity = "1";
-          }
-
-          function evolsplat_stop() {
-            document.getElementById('evolsplat_image').style.opacity = "0";
-          }
-          evolsplat_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:top">
-        <a href="https://xdimlab.github.io/EVolSplat/">
-          <span class="papertitle">EVolSplat: Efficient Volume-based Gaussian Splatting for Urban View Synthesis
-    </span>
-        </a>
-        <br>
-      Sheng Miao,
-      <strong>Jiaxin Huang</strong>,
-      Dongfeng Bai,
-      <a href="https://yanx27.github.io/">Xu Yan</a>,
-      <a href="https://hyzhou404.github.io/"></a>Hongyu Zhou</a>,
-      <a href="https://ywang-zju.github.io/">Yue Wang</a>,
-      Bingbing Liu,
-      <a href="https://www.cvlibs.net/">Andreas Geiger</a>,
-      <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
-        <br>
-      <em>CVPR<em>, 2025
-        <br>
-        <a href="https://xdimlab.github.io/EVolSplat/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2503.20168">arXiv</a>
-        <p></p>
-        <p>
-          A generalizable framework that predicts 3D Gaussians across multiple frames within a unified volume using convolutional networks.
-        </p>
-      </td>
-    </tr>          
-
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-        <div class="two" id='edus_image'><video width=100% height=76% muted autoplay loop>
-        <source src="images/edus_video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
-        <!-- </div>
-          <img src='images/veri3d_image.jpg' width="160">
-        </div> -->
-        <script type="text/javascript">
-          function edus_start() {
-            document.getElementById('edus_image').style.opacity = "1";
-          }
-
-          function edus_stop() {
-            document.getElementById('edus_image').style.opacity = "0";
-          }
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://xdimlab.github.io/EDUS/">
-          <span class="papertitle">Efficient Depth-Guided Urban View Synthesis
-    </span>
-        </a>
-        <br>
-      Sheng Miao<sup>∗</sup>,
-      <strong>Jiaxin Huang</strong><sup>∗</sup>,
-      Dongfeng Bai,
-      Weichao Qiu,
-      Bingbing Liu,
-      <a href="https://www.cvlibs.net/">Andreas Geiger</a>,
-      <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
-        <br>
-      <em>ECCV<em>, 2024
-        <br>
-        <a href="https://xdimlab.github.io/EDUS/">project page</a>
-        /
-        <a href="https://arxiv.org/pdf/2407.12395">arXiv</a>
-        <p></p>
-        <p>
-          A generalizable NeRF model that explicitly leverages geometric priors for feed-forward inference on unbounded sparse
-          urban scenes.
-        </p>
-      </td>
-    </tr>          
-
-    <tr onmouseout="veri3d_stop()" onmouseover="veri3d_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-        <div class="two" id='veri3d_image'><video width=100% height=100% muted autoplay loop>
-        <source src="images/veri3d_video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video></div>
-          <img src='images/veri3d_image.jpg' width=100% height=95%>
-        </div>
-        <script type="text/javascript">
-          function veri3d_start() {
-            document.getElementById('veri3d_image').style.opacity = "1";
-          }
-
-          function veri3d_stop() {
-            document.getElementById('veri3dy_image').style.opacity = "0";
-          }
-          veri3d_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://xdimlab.github.io/VeRi3d/">
-          <span class="papertitle">VeRi3D: Generative Vertex-based Radiance Fields for 3D Controllable Human Image Synthesis
-    </span>
-        </a>
-        <br>
-      <a href="https://xinyachen21.github.io/">Xinya Chen</a>,
-      <strong>Jiaxin Huang</strong>,
-      Yanrui Bin,
-      <a href="https://person.zju.edu.cn/yul/">Lu Yu</a>,
-      <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
-        <br>
-      <em>ICCV<em>, 2023
-        <br>
-        <a href="https://xdimlab.github.io/VeRi3d/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2309.04800">arXiv</a>
-        <p></p>
-        <p>
-          A generative human vertex-based radiance field parameterized by vertices of the parametric human template, SMPL.
-        </p>
-      </td>
-    </tr>          
-
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr>
-        <td style="padding:0px">
-          <br>
-          <p style="text-align:right;font-size:small;">
-            &copy; 2024 Jacey Huang.
-            Published with <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a>,
-            powered by <a href="https://jonbarron.info/" rel="nofollow">Jon Barron</a>.
-            Source code for this website can be found <a href="https://github.com/JaceyHuang/JaceyHuang.github.io/" rel="nofollow">here</a>.
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   Jacey Huang
+  </title>
+  <meta content="Jacey Huang" name="author"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="images/favicon/avatar-face.png" rel="icon" sizes="128x128" type="image/png"/>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <table style="width: 100%; max-width: 800px; border: 0px; border-spacing: 0px; border-collapse: separate; margin-right: auto; margin-left: auto;">
+   <tbody>
+    <tr style="padding: 0px;">
+     <td style="padding: 0px;">
+      <table style="width: 100%; border: 0px; border-spacing: 0px; border-collapse: separate; margin-right: auto; margin-left: auto;">
+       <tbody>
+        <tr style="padding: 0px;">
+         <td class="profile-bio-cell" style="padding: 2.5%; width: 65%; vertical-align: middle;">
+          <p class="name" style="text-align:  center;">
+           Jiaxin Huang | 黄嘉欣
           </p>
-        </td>
-      </tr>
-    </tbody></table>
+          <p>
+           I am currently pursuing a Ph.D. at
+           <a href="https://yiyiliao.github.io/xdlab//">X-D Lab</a>, Zhejiang University, under the guidance of
+           <a href="https://yiyiliao.github.io/">Prof.Yiyi Liao</a>.
+                  Prior to this, I completed my Bachelor's degree in Zhejiang University, graduating in June 2023.
+          </p>
+          <p>
+           My research interests primarily revolve around 3D computer vision, encompassing areas such as 3D scene reconstruction and controllable generation.
+          </p>
+          <p style="text-align: center;">
+           <a href="mailto:jacey.huang@zju.edu.cn">Email</a>
+           /
+           <a href="https://scholar.google.com/citations?hl=en&amp;user=BPZQBTgAAAAJ">Scholar</a>
+           /
+           <a href="https://twitter.com/jiaxinhuang2001">Twitter</a>
+           /
+           <a href="https://github.com/JaceyHuang/">Github</a>
+          </p>
+         </td>
+         <td class="profile-image-cell" style="padding: 4.0%; width: 50%; max-width: 50%; vertical-align: middle;">
+          <a href="images/avatar-2.png">
+           <img alt="profile photo" class="hoverZoomLink" src="images/avatar-2.png" style="width: 100%; max-width: 100%; object-fit: cover; border-radius: 5%; display: block;"/>
+          </a>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table style="width: 100%; border: 0px; border-spacing: 0px; border-collapse: separate; margin-right: auto; margin-left: auto;">
+       <tbody>
+        <tr>
+         <td style="text-indent: 20px; width: 100%; vertical-align: middle;">
+          <h2>
+           News
+          </h2>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <div class="news-scroll">
+       <ul>
+        <li>
+         Feb 21, 2026: One paper is accepted to
+         <b>CVPR 2026</b>.
+        </li>
+        <li>
+         Jun 26, 2025: One paper is accepted to
+         <b>ICCV 2025</b>.
+        </li>
+        <li>
+         Feb 27, 2025: One paper is accepted to
+         <b>CVPR 2025</b>.
+        </li>
+        <li>
+         Jul 1, 2024: One paper is accepted to
+         <b>ECCV 2024</b>.
+        </li>
+        <li>
+         Jul 15, 2023: One paper is accepted to
+         <b>ICCV 2023</b>.
+        </li>
+       </ul>
+      </div>
+      <section aria-labelledby="experiences-title" class="experiences">
+       <div class="experiences-header">
+        <h2 id="experiences-title">
+         Experiences
+        </h2>
+       </div>
+       <div aria-label="experiences-cards" class="experiences-track" id="experiences-track" role="region" tabindex="0">
+        <article class="experiences-card">
+         <div class="experiences-logo experiences-logo-lightspeed">
+          <img alt="LIGHTSPEED STUDIOS logo" height="48" src="images/lightspeed-logo.png" width="136"/>
+         </div>
+         <p class="experiences-date">
+          11/2026 – Now
+         </p>
+         <h3>
+          Tencent Lightspeed
+         </h3>
+         <p class="experiences-role">
+          Research Intern <strong>(Project Up)</strong>
+         </p>
+         <p class="experiences-advisor">
+          Mentor:
+          <a href="https://chenweikai.github.io/">Weikai Chen</a>
+         </p>
+        </article>
+        <article class="experiences-card">
+         <div class="experiences-logo">
+          <img alt="Robbyant logo" height="48" src="images/robbyant-logo.svg" width="120"/>
+         </div>
+         <p class="experiences-date">
+          06/2026 – 10/2026
+         </p>
+         <h3>
+          Ant Group Robbyant
+         </h3>
+         <p class="experiences-role">
+          Research Intern
+         </p>
+         <p class="experiences-advisor">
+          Mentor:
+          <a href="https://zehongs.github.io/">Zehong Shen</a>,
+          <a href="https://shenyujun.github.io/">Yujun Shen</a>
+         </p>
+        </article>
+        <article class="experiences-card">
+         <div class="experiences-logo">
+          <img alt="PICO logo" height="48" src="images/pico-logo.svg" width="120"/>
+         </div>
+         <p class="experiences-date">
+          10/2024 – 04/2026
+         </p>
+         <h3>
+          ByteDance Pico
+         </h3>
+         <p class="experiences-role">
+          Research Intern
+         </p>
+         <p class="experiences-advisor">
+          Mentor:
+          <a href="https://ybbbbt.com/">Bangbang Yang</a>, Yuewen Ma
+         </p>
+        </article>
+        <article class="experiences-card">
+         <div class="experiences-logo experiences-logo-zju">
+          <img alt="Zhejiang University logo" height="42" src="images/zju-horizontal.svg" width="136"/>
+         </div>
+         <p class="experiences-date">
+          09/2023 - Now
+         </p>
+         <h3>
+          Zhejiang University
+         </h3>
+         <p class="experiences-role">
+          Ph.D. Candidate
+         </p>
+         <p class="experiences-advisor">
+          Advisor:
+          <a href="https://yiyiliao.github.io/">Yiyi Liao</a>
+         </p>
+        </article>
+        <article class="experiences-card">
+         <div class="experiences-logo experiences-logo-zju">
+          <img alt="Zhejiang University logo" height="42" src="images/zju-horizontal.svg" width="136"/>
+         </div>
+         <p class="experiences-date">
+          08/2019 - 07/2023
+         </p>
+         <h3>
+          Zhejiang University
+         </h3>
+         <p class="experiences-role">
+          Bachelor's Degree
+         </p>
+         <p class="experiences-advisor">
+          Advisor:
+          <a href="https://yiyiliao.github.io/">Yiyi Liao</a>
+         </p>
+        </article>
+       </div>
+      </section>
+      <section aria-labelledby="publications-title" class="publications">
+       <table class="publications-table" style="width: 100%; border: 0; border-spacing: 0; border-collapse: separate; margin: 0 auto;">
+        <tbody>
+         <tr class="publications-heading">
+          <td colspan="2">
+           <h2 id="publications-title">
+            Selected Publications
+           </h2>
+           <p>
+            * means equal contribution.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding: 20px; width: 25%; vertical-align: middle;">
+           <div class="publication-preview" id="gen3r_image">
+            <video autoplay="" loop="" muted="" playsinline="" width="160">
+             <source src="images/gen3r_video.mp4" type="video/mp4"/>
+             Your browser does not support the video tag.
+            </video>
+           </div>
+           <script type="text/javascript">
+            function gen3r_start() {
+                    document.getElementById('gen3r_image').style.opacity = "1";
+                  }
 
-  </body>
+                  function gen3r_stop() {
+                    document.getElementById('gen3r_image').style.opacity = "0";
+                  }
+           </script>
+          </td>
+          <td style="padding: 20px; width: 75%; vertical-align: middle;">
+           <a href="https://xdimlab.github.io/Gen3R/">
+            <span class="papertitle">
+             Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction
+            </span>
+           </a>
+           <br/>
+           <strong>Jiaxin Huang</strong>,
+              Yuanbo Yang,
+           <a href="https://ybbbbt.com/">Bangbang Yang</a>,
+              Lin Ma,
+              Yuewen Ma,
+           <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
+           <br/>
+           <em>CVPR</em>, 2026
+           <br/>
+           <a href="https://xdimlab.github.io/Gen3R/">project page</a>
+           /
+           <a href="https://arxiv.org/abs/2601.04090">arXiv</a>
+           /
+           <a href="https://github.com/JaceyHuang/Gen3R">code</a>
+           <p>
+           </p>
+           <p>
+            A generative model that creates multi-quantity 3D scenes from images via a unified latent space of geometry and appearance.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding: 20px; width: 25%; vertical-align: middle;">
+           <div class="publication-preview" id="vivid4d_image">
+            <video autoplay="" loop="" muted="" playsinline="" width="160">
+             <source src="images/vivid4d_video.mp4" type="video/mp4"/>
+             Your browser does not support the video tag.
+            </video>
+           </div>
+           <script type="text/javascript">
+            function vivid4d_start() {
+                    document.getElementById('vivid4d_image').style.opacity = "1";
+                  }
+
+                  function vivid4d_stop() {
+                    document.getElementById('vivid4d_image').style.opacity = "0";
+                  }
+           </script>
+          </td>
+          <td style="padding: 20px; width: 75%; vertical-align: middle;">
+           <a href="https://xdimlab.github.io/Vivid4D/">
+            <span class="papertitle">
+             Vivid4D: Improving 4D Reconstruction from Monocular Video by Video Inpainting
+            </span>
+           </a>
+           <br/>
+           <strong>Jiaxin Huang</strong>,
+              Sheng Miao,
+           <a href="https://ybbbbt.com/">Bangbang Yang</a>,
+              Yuewen Ma,
+           <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
+           <br/>
+           <em>ICCV</em>, 2025
+           <br/>
+           <a href="https://xdimlab.github.io/Vivid4D/">project page</a>
+           /
+           <a href="http://arxiv.org/abs/2504.11092">arXiv</a>
+           <p>
+           </p>
+           <p>
+            A generative framework that addresses the challenge of reconstructing dynamic scenes from casual monocular videos with video diffusion model.
+           </p>
+          </td>
+         </tr>
+         <tr onmouseout="evolsplat_stop()" onmouseover="evolsplat_start()">
+          <td style="padding: 20px; width: 25%; vertical-align: middle;">
+           <div class="one">
+            <div class="two" id="evolsplat_image">
+             <video autoplay="" height="76%" loop="" muted="" playsinline="" width="100%">
+              <source src="images/evolsplat_video.mp4" type="video/mp4"/>
+              Your browser does not support the video tag.
+             </video>
+            </div>
+            <img alt="Publication preview" src="images/evolsplat_gif.gif" width="160"/>
+           </div>
+           <script type="text/javascript">
+            function evolsplat_start() {
+                    document.getElementById('evolsplat_image').style.opacity = "1";
+                  }
+
+                  function evolsplat_stop() {
+                    document.getElementById('evolsplat_image').style.opacity = "0";
+                  }
+                  evolsplat_stop()
+           </script>
+          </td>
+          <td style="padding: 20px; width: 75%; vertical-align: top;">
+           <a href="https://xdimlab.github.io/EVolSplat/">
+            <span class="papertitle">
+             EVolSplat: Efficient Volume-based Gaussian Splatting for Urban View Synthesis
+            </span>
+           </a>
+           <br/>
+           Sheng Miao,
+           <strong>Jiaxin Huang</strong>,
+              Dongfeng Bai,
+           <a href="https://yanx27.github.io/">Xu Yan</a>,
+           <a href="https://hyzhou404.github.io/">Hongyu Zhou</a>,
+           <a href="https://ywang-zju.github.io/">Yue Wang</a>,
+              Bingbing Liu,
+           <a href="https://www.cvlibs.net/">Andreas Geiger</a>,
+           <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
+           <br/>
+           <em>CVPR</em>, 2025
+           <br/>
+           <a href="https://xdimlab.github.io/EVolSplat/">project page</a>
+           /
+           <a href="https://arxiv.org/abs/2503.20168">arXiv</a>
+           /
+           <a href="https://github.com/Miaosheng1/EVolSplat">code</a>
+           <p>
+           </p>
+           <p>
+            A generalizable framework that predicts 3D Gaussians across multiple frames within a unified volume using convolutional networks.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding: 20px; width: 25%; vertical-align: middle;">
+           <div class="publication-preview" id="edus_image">
+            <video autoplay="" loop="" muted="" playsinline="" width="160">
+             <source src="images/edus_video.mp4" type="video/mp4"/>
+             Your browser does not support the video tag.
+            </video>
+           </div>
+           <script type="text/javascript">
+            function edus_start() {
+                    document.getElementById('edus_image').style.opacity = "1";
+                  }
+
+                  function edus_stop() {
+                    document.getElementById('edus_image').style.opacity = "0";
+                  }
+           </script>
+          </td>
+          <td style="padding: 20px; width: 75%; vertical-align: middle;">
+           <a href="https://xdimlab.github.io/EDUS/">
+            <span class="papertitle">
+             Efficient Depth-Guided Urban View Synthesis
+            </span>
+           </a>
+           <br/>
+           Sheng Miao<sup>∗</sup>,
+           <strong>Jiaxin Huang</strong><sup>∗</sup>,
+              Dongfeng Bai,
+              Weichao Qiu,
+              Bingbing Liu,
+           <a href="https://www.cvlibs.net/">Andreas Geiger</a>,
+           <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
+           <br/>
+           <em>ECCV</em>, 2024
+           <br/>
+           <a href="https://xdimlab.github.io/EDUS/">project page</a>
+           /
+           <a href="https://arxiv.org/pdf/2407.12395">arXiv</a>
+           /
+           <a href="https://github.com/Miaosheng1/EDUS">code</a>
+           <p>
+           </p>
+           <p>
+            A generalizable NeRF model that explicitly leverages geometric priors for feed-forward inference on unbounded sparse
+                  urban scenes.
+           </p>
+          </td>
+         </tr>
+         <tr onmouseout="veri3d_stop()" onmouseover="veri3d_start()">
+          <td style="padding: 20px; width: 25%; vertical-align: middle;">
+           <div class="one">
+            <div class="two" id="veri3d_image">
+             <video autoplay="" height="100%" loop="" muted="" playsinline="" width="100%">
+              <source src="images/veri3d_video.mp4" type="video/mp4"/>
+              Your browser does not support the video tag.
+             </video>
+            </div>
+            <img alt="Publication preview" height="95%" src="images/veri3d_image.jpg" width="100%"/>
+           </div>
+           <script type="text/javascript">
+            function veri3d_start() {
+                    document.getElementById('veri3d_image').style.opacity = "1";
+                  }
+
+                  function veri3d_stop() {
+                    document.getElementById('veri3d_image').style.opacity = "0";
+                  }
+                  veri3d_stop()
+           </script>
+          </td>
+          <td style="padding: 20px; width: 75%; vertical-align: middle;">
+           <a href="https://xdimlab.github.io/VeRi3d/">
+            <span class="papertitle">
+             VeRi3D: Generative Vertex-based Radiance Fields for 3D Controllable Human Image Synthesis
+            </span>
+           </a>
+           <br/>
+           <a href="https://xinyachen21.github.io/">Xinya Chen</a>,
+           <strong>Jiaxin Huang</strong>,
+              Yanrui Bin,
+           <a href="https://person.zju.edu.cn/yul/">Lu Yu</a>,
+           <a href="https://yiyiliao.github.io/">Yiyi Liao</a>,
+           <br/>
+           <em>ICCV</em>, 2023
+           <br/>
+           <a href="https://xdimlab.github.io/VeRi3d/">project page</a>
+           /
+           <a href="https://arxiv.org/abs/2309.04800">arXiv</a>
+           /
+           <a href="https://github.com/XinyaChen21/Veri3d">code</a>
+           <p>
+           </p>
+           <p>
+            A generative human vertex-based radiance field parameterized by vertices of the parametric human template, SMPL.
+           </p>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </section>
+      <table style="width: 100%; border: 0px; border-spacing: 0px; border-collapse: separate; margin-right: auto; margin-left: auto;">
+       <tbody>
+        <tr>
+         <td style="padding: 0px;">
+          <br/>
+          <p style="text-align: right; font-size: small;">
+           © 2026 Jacey Huang.
+            Published with
+           <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a>,
+            powered by
+           <a href="https://jonbarron.info/" rel="nofollow">Jon Barron</a>.
+            Source code for this website can be found
+           <a href="https://github.com/JaceyHuang/JaceyHuang.github.io/" rel="nofollow">here</a>.
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <script>
+   (() => {
+        ['vivid4d_image', 'veri3d_image'].forEach(id => {
+          const media = document.getElementById(id);
+          const text = media.closest('td').nextElementSibling;
+          const content = document.createElement('div');
+          content.style.margin = '0';
+          content.style.display = 'flow-root';
+          content.className = 'publication-text-content';
+          while (text.firstChild) content.appendChild(text.firstChild);
+          text.appendChild(content);
+          const frame = id === 'veri3d_image' ? media.parentElement : media;
+          const resize = () => { frame.style.height = (content.getBoundingClientRect().height * (id === 'vivid4d_image' ? 0.92 : 1)) + 'px'; };
+          new ResizeObserver(resize).observe(content);
+          resize();
+        });
+      })();
+  </script>
+ </body>
 </html>
