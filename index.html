@@ -400,7 +400,9 @@
            </div>
            <script type="text/javascript">
             function veri3d_start() {
-                    document.getElementById('veri3d_image').style.opacity = "1";
+                    const overlay = document.getElementById('veri3d_image');
+                    const video = overlay.querySelector('video');
+                    overlay.style.opacity = video.readyState >= 2 && !video.error ? '1' : '0';
                   }
 
                   function veri3d_stop() {
